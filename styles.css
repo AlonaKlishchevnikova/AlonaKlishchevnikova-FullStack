@@ -1,0 +1,46 @@
+body{
+    font-family: 'Roboto Mono';
+    background-color: rgb(44, 59, 70);
+    color: rgb(234, 139, 15);
+}
+.header{
+    width: 100%;
+    height: 120px;
+   text-align: center;
+   padding-top: 10px;
+}
+.sidebar{
+   
+    padding: 20px 50px 50px;
+    width: 300px;
+
+}
+img{
+    border-bottom: solid 20px rgb(234, 139, 15);   
+    
+}
+.title{
+   font-weight: 600px;
+}
+.list{
+    list-style: none;
+  
+}
+.main-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+  
+}
+.link{
+    text-decoration: none;
+    color: rgb(145, 111, 176);
+}
+.link:hover,
+.link:focus{
+    color: chartreuse;
+}
+.contact{
+    display: flex;
+}
